@@ -11,7 +11,8 @@ function PokemonCard(props) {
         )
     } else {
         return (
-            <p>???</p>
+            <figure><figcaption>{pokemon.name}</figcaption>
+            <p>???</p></figure>
         )
     }
 }
