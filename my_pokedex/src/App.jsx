@@ -39,10 +39,8 @@ function App() {
   return (
     <div>
       <NavBar
-        pokemonIndex={pokemonIndex}
         pokemonList={pokemonList}
-        handleNextClick={handleNextClick}
-        handlePreviousClick={handlePreviousClick}
+        setPokemonIndex={setPokemonIndex}
       />
       <PokemonCard pokemon={pokemonList[pokemonIndex]} />
     </div>
